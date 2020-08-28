@@ -60,8 +60,10 @@ def over?(board)
 end 
 
 def winner(board)
-  if won?(board)
-    "X" && "O"
+  winning_array = won?(board)
+  if winning_array
+    index = winning_array[0]
+    
   else 
     nil
 end
