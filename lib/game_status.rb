@@ -59,10 +59,3 @@ def over?(board)
   end
 end 
 
-def winner(board)
-  if won?(board)
-    "X" || "O"
-  else 
-    nil
-end
-end
