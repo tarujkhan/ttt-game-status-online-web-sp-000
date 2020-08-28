@@ -61,8 +61,18 @@ end
 
 def winner(board)
   if won?(board)
-    return "X" || "O"
-  else
-    over?(board)
+    board[won?(board)[0]]
+  else 
+    nil
 end
 end
+
+# def winner(board)
+#   winning_array = won?(board)
+#   if winning_array
+#     index = winning_array[0]
+    
+#   else 
+#     nil
+# end
+# end
