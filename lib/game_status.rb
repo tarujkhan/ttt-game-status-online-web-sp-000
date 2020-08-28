@@ -66,3 +66,13 @@ def winner(board)
     nil
 end
 end
+
+# def winner(board)
+#   winning_array = won?(board)
+#   if winning_array
+#     index = winning_array[0]
+    
+#   else 
+#     nil
+# end
+# end
